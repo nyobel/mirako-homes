@@ -1,0 +1,25 @@
+.h-wrapper {
+    background: var(--primary);
+    height: 4.3rem;
+}
+
+.h-container {
+    width: 100%;
+    padding: 2.5rem 8rem;
+    position: sticky;
+}
+
+.h-menu {
+    font-weight: 500;
+    font-size: .9rem;
+    color: var(--secondary);
+}
+
+.h-menu a{
+    gap: 1rem;
+}
+
+.h-menu:hover {
+    color: var(--gold);
+    cursor: pointer;
+}
