@@ -1,9 +1,6 @@
 import React from "react";
-import { Swiper, SwiperSlide, useSwiper } from "swiper/react";
-import "swiper/css";
 import "./Properties.css";
 import { PropertyList } from "../../utils/PropertyList";
-import { sliderSettings } from "../../utils/common";
 
 
 const Properties = () => {
@@ -13,12 +10,9 @@ const Properties = () => {
         <div className="flexColStart p-head">
           <span>Our Popular Homes</span>
         </div>
-
-        <Swiper 
-          {...sliderSettings}
-        >
+    {/* property cards  */}
+        <div className="p-cards">
           {PropertyList.map((card, i) => (
-            <SwiperSlide key={i}>
               <div className="flexColStart p-card">
                 <img src={card.image} alt="home" />
                 <div className="flexColStart p-details">
@@ -34,9 +28,8 @@ const Properties = () => {
                   </div>
                 </div>
               </div>
-            </SwiperSlide>
           ))}
-        </Swiper>
+        </div>
       </div>
     </section>
   );

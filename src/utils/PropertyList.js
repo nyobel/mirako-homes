@@ -40,7 +40,23 @@ export const PropertyList = [
         "price": "100000"
     },
     {
+        "image": prop3,
+        "location": "Railside Apartments, Utawala",
+        "bedroom": "4",
+        "bathroom": "4",
+        "sqft": "1800",
+        "price": "100000"
+    },
+    {
         "image": prop5,
+        "location": "Railside Apartments, Utawala",
+        "bedroom": "4",
+        "bathroom": "4",
+        "sqft": "1800",
+        "price": "100000"
+    },
+    {
+        "image": prop1,
         "location": "Railside Apartments, Utawala",
         "bedroom": "4",
         "bathroom": "4",
