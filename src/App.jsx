@@ -1,22 +1,20 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom"
-import Header from "./components/Header/Header";
-import Hero from "./components/Hero/Hero";
-import "./App.css";
-import SearchBar from "./components/SearchBar/SearchBar";
-import Properties from "./components/Property/Properties";
-import HomeArticles from "./components/HomeArticles/HomeArticles";
+import { Route, createBrowserRouter, createRoutesFromElements, RouterProvider, } from "react-router-dom"
+import MainLayout from "./Layouts/MainLayout";
+import HomePage from "./pages/HomePage";
+import PropertiesPage from "./pages/PropertiesPage";
+
+const router = createBrowserRouter (
+  createRoutesFromElements(
+    <Route path="/" element={<MainLayout />}>
+      <Route index element={<HomePage />} />
+      <Route path="/properties" element={<PropertiesPage />} />
+    </Route>
+  )
+);
 
 const App = () => {
-  return (
-    <div>
-      <Header />
-      <Hero />
-      <SearchBar />
-      <Properties />
-      <HomeArticles />
-    </div>
-  );
+  return <RouterProvider router={router} />;
 };
 
 export default App;
