@@ -16,6 +16,7 @@
   scroll-behavior: smooth;
 }
 
+
 a{
   text-decoration: none;
   color: var(--secondary);
@@ -26,8 +27,6 @@ a{
 
 .paddings {
   padding: 2rem 8rem;
-  /* padding-left: 4rem;
-  padding-right: 4rem; */
 }
 
 
