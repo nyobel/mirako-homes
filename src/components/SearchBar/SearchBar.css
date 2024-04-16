@@ -1,6 +1,6 @@
 .searchbox{
   position: absolute;
-  top: 101%;
+  top: 102%;
   transform: translateY(-50%);
   width: 100%; /* Make the search bar span the full width */
   z-index: 2; 

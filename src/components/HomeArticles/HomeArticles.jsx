@@ -23,7 +23,7 @@ const HomeArticles = () => {
                   </div>
                   <div className="a-desc">
                     <span>{card.desc}</span>
-                    <button className="a-btn">Readmore</button>
+                    <button className="a-btn">Read more</button>
                   </div>
                 </div>
               </div>

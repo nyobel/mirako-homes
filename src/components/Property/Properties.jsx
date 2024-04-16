@@ -1,9 +1,12 @@
 import React from "react";
 import "./Properties.css";
-import { PropertyList } from "../../utils/PropertyList";
+import { properties } from "../../utils/PropertyList";
 
 
-const Properties = () => {
+const Properties = ({ isHome = false }) => {
+const propertyList = isHome ? properties.slice(0, 4) : properties;
+
+
   return (
     <section className="p-wrapper">
       <div className="p-container">
@@ -12,18 +15,18 @@ const Properties = () => {
         </div>
     {/* property cards  */}
         <div className="p-cards">
-          {PropertyList.map((card, i) => (
+          {propertyList.map((property, i) => (
               <div className="flexColStart p-card">
-                <img src={card.image} alt="home" />
+                <img src={property.image} alt="home" />
                 <div className="flexColStart p-details">
-                  <span className="p-location">{card.location}</span>
+                  <span className="p-location">{property.location}</span>
                   <div className="p-extra">
-                    <span>{card.bedroom} Bedroom</span>
-                    <span>{card.bathroom} Bathroom</span>
-                    <span>{card.sqft}</span>
+                    <span>{property.bedroom} Bedroom</span>
+                    <span>{property.bathroom} Bathroom</span>
+                    <span>{property.sqft}</span>
                   </div>
                   <div className="p-price">
-                    <span>${card.price}</span>
+                    <span>${property.price}</span>
                     <button className="p-btn">Book Now</button>
                   </div>
                 </div>

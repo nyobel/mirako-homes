@@ -6,7 +6,7 @@ import prop5 from "../assets/prop5.jpeg"
 import prop6 from "../assets/prop6.jpeg"
 
 
-export const PropertyList = [
+export const properties = [
     {
         "image": prop1,
         "location": "Railside Apartments, Utawala",

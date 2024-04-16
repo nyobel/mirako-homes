@@ -6,7 +6,7 @@
 .h-container {
   width: 100%;
   position: fixed;
-  border-bottom: 1px solid var(--secondary);
+  /* border-bottom: 2px solid var(--secondary); */
 }
 
 .h-container .logo > img {

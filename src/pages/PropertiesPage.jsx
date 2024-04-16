@@ -1,6 +1,8 @@
+import Properties from "../components/Property/Properties"
+
 const PropertiesPage = () => {
   return (
-    <div>PropertiesPage</div>
+    <Properties />
   )
 }
 
