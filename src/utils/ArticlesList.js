@@ -5,7 +5,7 @@ import article4 from "../assets/article4.jpeg"
 import article5 from "../assets/article5.jpeg"
 import article6 from "../assets/article6.jpeg"
 
-export const ArticlesList = [
+export const Articles = [
     {
         "image": article1,
         "title": "Article Title",

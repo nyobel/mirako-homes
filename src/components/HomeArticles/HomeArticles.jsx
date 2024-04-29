@@ -1,37 +1,44 @@
-import React from 'react'
-// import '../Property/properties.css'
-import './HomeArticles.css'
-import { ArticlesList } from '../../utils/ArticlesList'
+import "./HomeArticles.css";
+import { Articles } from "../../utils/ArticlesList";
+import { FaUserAlt, FaClock } from "react-icons/fa";
 
-const HomeArticles = () => {
+const HomeArticles = ({ isHome = false }) => {
+  const articleList = isHome ? Articles.slice(0, 4) : Articles;
+
   return (
     <section className="a-wrapper">
       <div className="a-container">
         <div className="a-head">
           <span>Get To Know Real Estate</span>
         </div>
-    {/* article cards  */}
+        {/* article cards  */}
         <div className="a-cards">
-          {ArticlesList.map((card, i) => (
-              <div className="a-card">
-                <img src={card.image} alt="home" />
-                <div className="a-details">
-                  <span className="a-title">{card.title}</span>
-                  <div className="a-extra">
-                    <span>{card.author}</span>
-                    <span>{card.mins} mins</span>
-                  </div>
-                  <div className="a-desc">
-                    <span>{card.desc}</span>
-                    <button className="a-btn">Read more</button>
-                  </div>
+          {articleList.map((article, i) => (
+            <div className="a-card">
+              <img src={article.image} alt="home" />
+              <div className="a-details">
+                <span className="a-title">{article.title}</span>
+                <div className="a-extra">
+                  <span>
+                    <FaUserAlt />
+                    {article.author}
+                  </span>
+                  <span>
+                    <FaClock />
+                    {article.mins} mins
+                  </span>
+                </div>
+                <div className="a-desc">
+                  <span>{article.desc}</span>
+                  <button className="a-btn">Read more</button>
                 </div>
               </div>
+            </div>
           ))}
         </div>
       </div>
     </section>
-  )
-}
+  );
+};
 
-export default HomeArticles
+export default HomeArticles;

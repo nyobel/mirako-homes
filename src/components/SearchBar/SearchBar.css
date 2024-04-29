@@ -1,6 +1,6 @@
 .searchbox{
   position: absolute;
-  top: 102%;
+  top: 100%;
   transform: translateY(-50%);
   width: 100%; /* Make the search bar span the full width */
   z-index: 2; 
@@ -28,7 +28,6 @@
 .dropdown {
   border: 1px solid var(--light);
   border-radius: 3px;
-  
   padding: .3rem;
   gap: 1rem;
   display: flex;

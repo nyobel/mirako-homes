@@ -8,6 +8,7 @@
   font-size: 2rem;
   font-weight: 700;
   margin: 3rem 3rem 1.5rem 3rem;
+  padding-top: 1rem;
 }
 
 .p-cards {
@@ -61,7 +62,7 @@
 
 .p-price > button {
   width: 8rem;
-  padding: 0.3rem 1rem;
+  padding: 0.3rem 0.6rem;
   font-size: 1rem;
   font-weight: 600;
   border-radius: 5px;
@@ -82,3 +83,4 @@
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
+

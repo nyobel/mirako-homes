@@ -6,9 +6,7 @@ const NavBar = () => {
   return (
     <nav className="h-wrapper">
       <div className="h-container">
-        <div className="logo">
           <img src={logo} alt="Mariko logo" />
-        </div>
         <div className="h-menu">
           <ul>
             <li><Link to="/">Home</Link></li>

@@ -6,13 +6,13 @@
 .h-container {
   width: 100%;
   position: fixed;
-  /* border-bottom: 2px solid var(--secondary); */
+  z-index: 10;
 }
 
-.h-container .logo > img {
+.h-container > img {
   position: absolute;
   width: 150px;
-  top: 2px;
+  /* top: 2px; */
   left: 6%;
 }
 
@@ -35,13 +35,18 @@
   padding: 6px 0;
 }
 
+.h-menu ul li a:hover {
+  color: var(--gold);
+  transition: 0.4s ease-in-out;
+}
+
 .h-menu ul li a:before {
   position: absolute;
   content: "";
   left: 0;
   bottom: 0;
   height: 3px;
-  width: 100%;
+  width: 45%;
   background-color: var(--gold);
   transform: scaleX(0);
   transform-origin: right;
@@ -52,3 +57,4 @@
   transform: scaleX(1);
   transform-origin: left;
 }
+
