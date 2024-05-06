@@ -17,6 +17,12 @@
 }
 
 
+.container {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+
+
 a{
   text-decoration: none;
   color: var(--secondary);

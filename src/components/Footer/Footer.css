@@ -1,5 +1,5 @@
 footer {
-    padding: 4rem 6rem 2rem 6rem;
+    padding: 2rem 6rem 2rem 6rem;
     background-color: var(--dark);
 }
 
@@ -33,15 +33,15 @@ footer {
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 1rem;
 }
 
 .footer-info-div-left img{
-    width: 150px;
+    width: 120px;
 }
 
 .footer-info-div-left p{
-    line-height: 2;
+    line-height: 1.5;
 }
 
 .footer-info-div .f-icon{

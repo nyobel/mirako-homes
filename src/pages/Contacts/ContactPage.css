@@ -1,0 +1,12 @@
+.contact-page {
+    width: 100vh;
+    height: 100vh;
+}
+
+.contact-page .contact-header {
+    width: 100%;
+    height: 10rem;
+    background-color: var(--primary);
+    color: var(--secondary);
+    
+}

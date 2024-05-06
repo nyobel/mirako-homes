@@ -29,13 +29,13 @@ const Footer = () => {
               minima repudiandae atque, tenetur consequuntur corrupti?
             </p>
             <div>
-              <Link>
+              <Link to="https://www.pinterest.com">
                 <FaFacebook className="f-icon icon" />
               </Link>
-              <Link>
+              <Link to="https://twitter.com/MirakoHomes">
                 <FaTwitter className="f-icon icon" />
               </Link>
-              <Link>
+              <Link to="https://www.instagram.com/mirakohomes">
                 <FaInstagram className="f-icon icon" />
               </Link>
               <Link>
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
           <div className="footer-quick-links footer-info-div">
             <h3>Quick Links</h3>
-            <Link>
+            <Link to="/">
               <FaGreaterThan className="f-symbol icon" />
               Home
             </Link>
@@ -54,30 +54,30 @@ const Footer = () => {
               <FaGreaterThan className="f-symbol icon" />
               About
             </Link> */}
-            <Link>
+            <Link to="/properties">
               <FaGreaterThan className="f-symbol icon" />
               Properties
             </Link>
-            <Link>
+            <Link to="/articles">
               <FaGreaterThan className="f-symbol icon" />
               Articles
             </Link>
-            <Link>
+            <Link to="/services">
               <FaGreaterThan className="f-symbol icon" />
               Services
             </Link>
-            <Link>
+            <Link to="contacts">
               <FaGreaterThan className="f-symbol icon" />
               Contact Us
             </Link>
           </div>
           <div className="footer-services footer-info-div">
             <h3>Services</h3>
-            <Link>
+            <Link to="/invest">
               <FaGreaterThan className="f-symbol icon" />
               Invest
             </Link>
-            <Link>
+            <Link to="/donate">
               <FaGreaterThan className="f-symbol icon" />
               Donate
             </Link>

@@ -21,6 +21,7 @@
   /* max-width: max-content; */
   /* margin-bottom: 2rem; */
   width: 18rem;
+  min-width: 18rem;
   height: 19rem;
   margin-right: 1em;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -62,7 +63,7 @@
   color: var(--dark);
 }
 
-.a-desc > button {
+.a-desc .a-btn {
   width: 6rem;
   padding: 0.3rem 0.6rem;
   font-size: 0.9rem;
@@ -75,7 +76,7 @@
   transition: all 300ms ease-in;
 }
 
-.a-desc > button:hover {
+.a-desc .a-btn:hover {
   scale: 1.05;
   cursor: pointer;
 }

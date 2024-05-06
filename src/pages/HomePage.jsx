@@ -1,13 +1,13 @@
 import Hero from "../components/Hero/Hero";
 import Properties from "../components/Property/Properties";
-import HomeArticles from "../components/HomeArticles/HomeArticles";
+import Articles from "../components/Articles/Articles";
 
 const HomePage = () => {
   return (
     <>
       <Hero />
       <Properties isHome={true}/>
-      <HomeArticles isHome={true}/>
+      <Articles isHome={true}/>
     </>
   );
 };

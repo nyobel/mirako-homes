@@ -1,20 +1,9 @@
-import "./HomeArticles.css";
-import { Articles } from "../../utils/ArticlesList";
 import { FaUserAlt, FaClock } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
-const HomeArticles = ({ isHome = false }) => {
-  const articleList = isHome ? Articles.slice(0, 4) : Articles;
-
+const ArticleListing = ({ article }) => {
   return (
-    <section className="a-wrapper">
-      <div className="a-container">
-        <div className="a-head">
-          <span>Get To Know Real Estate</span>
-        </div>
-        {/* article cards  */}
-        <div className="a-cards">
-          {articleList.map((article, i) => (
-            <div className="a-card">
+    <div className="a-card">
               <img src={article.image} alt="home" />
               <div className="a-details">
                 <span className="a-title">{article.title}</span>
@@ -30,15 +19,11 @@ const HomeArticles = ({ isHome = false }) => {
                 </div>
                 <div className="a-desc">
                   <span>{article.desc}</span>
-                  <button className="a-btn">Read more</button>
+                  <Link to={`/article/${article.id}`}><button className="a-btn">Read more</button></Link>
                 </div>
               </div>
             </div>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-};
+  )
+}
 
-export default HomeArticles;
+export default ArticleListing

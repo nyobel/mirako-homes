@@ -1,9 +1,17 @@
+.active {
+  color: var(--gold);
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 45%;
+}
+
 .h-wrapper {
-  background: var(--primary);
   height: 70px;
 }
 
 .h-container {
+  background: var(--primary);
   width: 100%;
   position: fixed;
   z-index: 10;
@@ -11,8 +19,8 @@
 
 .h-container > img {
   position: absolute;
-  width: 150px;
-  /* top: 2px; */
+  width: 130px;
+  padding: 8px;
   left: 6%;
 }
 
@@ -35,12 +43,18 @@
   padding: 6px 0;
 }
 
-.h-menu ul li a:hover {
+.h-menu ul li a.active{
+  color: var(--gold);
+}
+
+.h-menu ul li a:hover,
+.h-menu ul li a.active {
   color: var(--gold);
   transition: 0.4s ease-in-out;
 }
 
-.h-menu ul li a:before {
+.h-menu ul li a:before,
+.h-menu ul li a.active:before {
   position: absolute;
   content: "";
   left: 0;
@@ -53,7 +67,8 @@
   transition: transform 0.4s linear;
 }
 
-.h-menu ul li a:hover:before {
+.h-menu ul li a:hover:before,
+.h-menu ul li a.active:before {
   transform: scaleX(1);
   transform-origin: left;
 }
