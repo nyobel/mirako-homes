@@ -17,7 +17,7 @@
   width: 400px;
 }
 
-.error-details {
+.error-page .error-details {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,14 +25,14 @@
   gap: 0.5rem;
 }
 
-.error-details p{
+.error-page .error-details p{
     font-size: 1.1rem;
     color: var(--dark);
     font-weight: 600;
 }
 
 
-.error-details button {
+.error-page .error-details button {
     width: 10rem;
     padding: 0.5rem;
     font-size: 1rem;
@@ -44,7 +44,7 @@
     transition: all 300ms ease-in;
   }
   
-  .error-details button:hover {
+  .error-page .error-details button:hover {
     scale: 1.05;
     cursor: pointer;
   }
