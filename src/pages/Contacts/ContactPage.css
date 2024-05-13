@@ -75,12 +75,14 @@
   border: 2px solid var(--dark);
   background: var(--dark);
   color: var(--light);
+  margin-bottom: 8px;
 }
 
 .contact-form-btn:hover,
 .contact-form-right button:hover {
   cursor: pointer;
 }
+
 
 .contact-form-right {
   width: 38%;

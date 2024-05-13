@@ -1,7 +1,33 @@
 import "./ContactPage.css";
 import { FaMapMarkerAlt } from "react-icons/fa";
+import { useState } from "react";
 
 const ContactPage = () => {
+  const [result, setResult] = useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "d0106da1-92eb-42af-9ad9-143613d35b3d");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Message Sent Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
+
   return (
     <section>
       <div className="contact-page ">
@@ -11,7 +37,7 @@ const ContactPage = () => {
         <div className="contact-form container">
           <div className="contact-form-left">
             <h2>Send Us A Message</h2>
-            <form>
+            <form onSubmit={onSubmit}>
               <div className="form-one">
                 <label>Email</label>
                 <input type="email" name="email" placeholder="Email" required />
@@ -34,6 +60,7 @@ const ContactPage = () => {
               ></textarea>
               <button className="contact-form-btn">Send Message</button>
             </form>
+            <span>{result}</span>
           </div>
           <div className="contact-form-right">
             <h2>Our Articles</h2>

@@ -1,5 +1,5 @@
 import "./Footer.css";
-import logo from "../../assets/marikologo1.png";
+import logo from "../../images/marikologo1.png";
 import {
   FaFacebook,
   FaTwitter,

@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const PropertyListing = ({ property }) => {
   return (
     <div className="flexColStart p-card">
-      <img src={property.image} alt="home" />
+      <img src={ property.img } alt="property image" />
       <div className="flexColStart p-details">
         <span className="p-location">
           <FaMapMarkerAlt className="icon" />

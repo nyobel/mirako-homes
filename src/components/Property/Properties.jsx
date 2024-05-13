@@ -1,5 +1,5 @@
 import "./Properties.css";
-import { properties } from "../../utils/PropertyList";
+import properties from "../../properties.json";
 import PropertyListing from "./PropertyListing";
 
 
