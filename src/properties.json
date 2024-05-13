@@ -1,74 +1,76 @@
-[
-  {
-    "id": "1",
-    "img": "src/images/prop1.jpeg",
-    "location": "Railside Apartments, Utawala",
-    "bedroom": "4",
-    "bathroom": "4",
-    "sqft": "1800",
-    "price": "100000"
-  },
-  {
-    "id": "2",
-    "img": "src/images/prop2.jpeg",
-    "location": "Railside Apartments, Utawala",
-    "bedroom": "4",
-    "bathroom": "4",
-    "sqft": "1800",
-    "price": "100000"
-  },
-  {
-    "id": "3",
-    "img": "src/images/prop3.jpeg",
-    "location": "Railside Apartments, Utawala",
-    "bedroom": "4",
-    "bathroom": "4",
-    "sqft": "1800",
-    "price": "100000"
-  },
-  {
-    "id": "4",
-    "img": "src/images/prop4.jpeg",
-    "location": "Railside Apartments, Utawala",
-    "bedroom": "4",
-    "bathroom": "4",
-    "sqft": "1800",
-    "price": "100000"
-  },
-  {
-    "id": "5",
-    "img": "src/images/prop3.jpeg",
-    "location": "Railside Apartments, Utawala",
-    "bedroom": "4",
-    "bathroom": "4",
-    "sqft": "1800",
-    "price": "100000"
-  },
-  {
-    "id": "6",
-    "img": "src/images/prop5.jpeg",
-    "location": "Railside Apartments, Utawala",
-    "bedroom": "4",
-    "bathroom": "4",
-    "sqft": "1800",
-    "price": "100000"
-  },
-  {
-    "id": "7",
-    "img": "src/images/prop1.jpeg",
-    "location": "Railside Apartments, Utawala",
-    "bedroom": "4",
-    "bathroom": "4",
-    "sqft": "1800",
-    "price": "100000"
-  },
-  {
-    "id": "8",
-    "img": "src/images/prop6.jpeg",
-    "location": "Railside Apartments, Utawala",
-    "bedroom": "4",
-    "bathroom": "4",
-    "sqft": "1800",
-    "price": "100000"
-  }
-]
+{
+  "properties": [
+    {
+      "id": "1",
+      "img": "src/images/prop1.jpeg",
+      "location": "Railside Apartments, Utawala",
+      "bedroom": "4",
+      "bathroom": "4",
+      "sqft": "1800",
+      "price": "100000"
+    },
+    {
+      "id": "2",
+      "img": "src/images/prop2.jpeg",
+      "location": "Railside Apartments, Utawala",
+      "bedroom": "4",
+      "bathroom": "4",
+      "sqft": "1800",
+      "price": "100000"
+    },
+    {
+      "id": "3",
+      "img": "src/images/prop3.jpeg",
+      "location": "Railside Apartments, Utawala",
+      "bedroom": "4",
+      "bathroom": "4",
+      "sqft": "1800",
+      "price": "100000"
+    },
+    {
+      "id": "4",
+      "img": "src/images/prop4.jpeg",
+      "location": "Railside Apartments, Utawala",
+      "bedroom": "4",
+      "bathroom": "4",
+      "sqft": "1800",
+      "price": "100000"
+    },
+    {
+      "id": "5",
+      "img": "src/images/prop3.jpeg",
+      "location": "Railside Apartments, Utawala",
+      "bedroom": "4",
+      "bathroom": "4",
+      "sqft": "1800",
+      "price": "100000"
+    },
+    {
+      "id": "6",
+      "img": "src/images/prop5.jpeg",
+      "location": "Railside Apartments, Utawala",
+      "bedroom": "4",
+      "bathroom": "4",
+      "sqft": "1800",
+      "price": "100000"
+    },
+    {
+      "id": "7",
+      "img": "src/images/prop1.jpeg",
+      "location": "Railside Apartments, Utawala",
+      "bedroom": "4",
+      "bathroom": "4",
+      "sqft": "1800",
+      "price": "100000"
+    },
+    {
+      "id": "8",
+      "img": "src/images/prop6.jpeg",
+      "location": "Railside Apartments, Utawala",
+      "bedroom": "4",
+      "bathroom": "4",
+      "sqft": "1800",
+      "price": "100000"
+    }
+  ]
+}
