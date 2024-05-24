@@ -1,5 +1,7 @@
 import "./ContactPage.css";
-import { FaMapMarkerAlt } from "react-icons/fa";
+import { LuMapPin } from "react-icons/lu";
+import { BsEnvelopeAt } from "react-icons/bs";
+import { LiaPhoneVolumeSolid } from "react-icons/lia";
 import { useState } from "react";
 
 const ContactPage = () => {
@@ -14,7 +16,7 @@ const ContactPage = () => {
 
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      body: formData
+      body: formData,
     });
 
     const data = await response.json();
@@ -64,23 +66,35 @@ const ContactPage = () => {
           </div>
           <div className="contact-form-right">
             <h2>Our Articles</h2>
-            <p>Sign up for our weekly articles to get the latest news on real estate.</p>
+            <p>
+              Sign up for our weekly articles to get the latest news on real
+              estate.
+            </p>
             <label>Email</label>
-            <input type="email" placeholder="Email" name="email" required/>
+            <input type="email" placeholder="Email" name="email" required />
             <button>Subscribe</button>
           </div>
         </div>
         <div className="contact-details container">
           <div className="contact-detail phone">
-            +254702008666
+            <div className="contact-detail-icon">
+              <LiaPhoneVolumeSolid className="card-icon" />
+              <span>+254702008666</span>
+            </div>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
           </div>
           <div className="contact-detail email">
-            mirakohomes@gmail.com
+            <div className="contact-detail-icon">
+              <BsEnvelopeAt className="card-icon" />
+              <span>mirakohomes@gmail.com</span>
+            </div>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
           </div>
           <div className="contact-detail location">
-            <FaMapMarkerAlt className="contact-icon location-icon"/>Coming Soon
+            <div className="contact-detail-icon">
+              <LuMapPin className="card-icon" />
+              <span>Coming Soon</span>
+            </div>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
           </div>
         </div>

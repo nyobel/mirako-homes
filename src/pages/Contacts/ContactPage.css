@@ -1,6 +1,6 @@
 .contact-page .contact-header {
-  height: 10rem;
-  background-color: var(--primary);
+  height: 18rem;
+  background-image: url("src/images/contact-header.jpeg");
   color: var(--secondary);
   display: flex;
   align-items: center;
@@ -9,7 +9,7 @@
 }
 
 .contact-header h1 {
-  font-size: 3rem;
+  font-size: 5rem;
   margin: 2px;
   color: var(--secondary);
 }
@@ -18,7 +18,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 6rem 4rem 4rem 3rem;
+  margin: 2rem 4rem 4rem 3rem;
 }
 
 .contact-form-left {
@@ -122,7 +122,7 @@
 }
 
 .contact-details {
-  margin: 5rem 3rem;
+  margin: 3rem 4rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -134,11 +134,10 @@
   border-radius: 15px;
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   flex-direction: column;
   padding: 30px;
   gap: 1.2rem;
-  font-size: 1.2rem;
+  font-size: 1.15rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
@@ -159,6 +158,16 @@
 .location{
   background-color: var(--secondary);
   color: var(--dark);
+}
+
+.contact-detail-icon {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-detail-icon .card-icon {
+  font-size: 30px;
 }
 
 

@@ -2,75 +2,296 @@
   "properties": [
     {
       "id": "1",
-      "img": "src/images/prop1.jpeg",
-      "location": "Railside Apartments, Utawala",
+      "category": "Rent",
+      "title": "Railside Apartments, Utawala",
+      "type": "Mansion",
+      "images": [
+                  {
+                    "url": "src/images/prop1.jpeg",
+                    "alt": "Railside Apartments Image 1"
+                  },
+                  {
+                    "url": "src/images/prop2.jpeg",
+                    "alt": "Railside Apartments Image 2"
+                  },
+                  {
+                    "url": "src/images/prop3.jpeg",
+                    "alt": "Railside Apartments Image 3"
+                  }
+                ],
+      "location": "Astrol, utawala",
       "bedroom": "4",
       "bathroom": "4",
       "sqft": "1800",
-      "price": "100000"
+      "price": "100000",
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "owner": {
+        "name": "Sidney Okello",
+        "email": "sidneyokello@gmail.com",
+        "phone number": "0702008666",
+        "reviews": {
+        "stars": "4"
+      }
+      }
     },
     {
       "id": "2",
-      "img": "src/images/prop2.jpeg",
+      "category": "rent",
+      "title": "Railside Apartments, Utawala",
+      "type": "Mansion",
+      "images": [
+                  {
+                    "url": "src/images/prop1.jpeg",
+                    "alt": "Railside Apartments Image 1"
+                  },
+                  {
+                    "url": "src/images/prop2.jpeg",
+                    "alt": "Railside Apartments Image 2"
+                  },
+                  {
+                    "url": "src/images/prop3.jpeg",
+                    "alt": "Railside Apartments Image 3"
+                  }
+                ],
       "location": "Railside Apartments, Utawala",
       "bedroom": "4",
       "bathroom": "4",
       "sqft": "1800",
-      "price": "100000"
+      "price": "100000",
+      "reviews": {
+        "stars": "4"
+      },
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "owner": {
+        "name": "Sidney Okello",
+        "email": "sidneyokello@gmail.com",
+        "phone number": "0702008666",
+        "reviews": {
+        "stars": "4"
+      }
+      }
     },
     {
       "id": "3",
-      "img": "src/images/prop3.jpeg",
+      "category": "rent",
+      "title": "Railside Apartments, Utawala",
+      "type": "Mansion",
+      "images": [
+                  {
+                    "url": "src/images/prop1.jpeg",
+                    "alt": "Railside Apartments Image 1"
+                  },
+                  {
+                    "url": "src/images/prop2.jpeg",
+                    "alt": "Railside Apartments Image 2"
+                  },
+                  {
+                    "url": "src/images/prop3.jpeg",
+                    "alt": "Railside Apartments Image 3"
+                  }
+                ],
       "location": "Railside Apartments, Utawala",
       "bedroom": "4",
       "bathroom": "4",
       "sqft": "1800",
-      "price": "100000"
+      "price": "100000",
+      "reviews": {
+        "stars": "4"
+      },
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "owner": {
+        "name": "Sidney Okello",
+        "email": "sidneyokello@gmail.com",
+        "phone number": "0702008666",
+        "reviews": {
+        "stars": "4"
+      }
+      }
     },
     {
       "id": "4",
-      "img": "src/images/prop4.jpeg",
+      "category": "rent",
+      "title": "Railside Apartments, Utawala",
+      "type": "Mansion",
+      "images": [
+                  {
+                    "url": "src/images/prop1.jpeg",
+                    "alt": "Railside Apartments Image 1"
+                  },
+                  {
+                    "url": "src/images/prop2.jpeg",
+                    "alt": "Railside Apartments Image 2"
+                  },
+                  {
+                    "url": "src/images/prop3.jpeg",
+                    "alt": "Railside Apartments Image 3"
+                  }
+                ],
       "location": "Railside Apartments, Utawala",
       "bedroom": "4",
       "bathroom": "4",
       "sqft": "1800",
-      "price": "100000"
+      "price": "100000",
+      "reviews": {
+        "stars": "4"
+      },
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "owner": {
+        "name": "Sidney Okello",
+        "email": "sidneyokello@gmail.com",
+        "phone number": "0702008666",
+        "reviews": {
+        "stars": "4"
+      }
+      }
     },
     {
       "id": "5",
-      "img": "src/images/prop3.jpeg",
+      "category": "rent",
+      "title": "Railside Apartments, Utawala",
+      "type": "Mansion",
+      "images": [
+                  {
+                    "url": "src/images/prop1.jpeg",
+                    "alt": "Railside Apartments Image 1"
+                  },
+                  {
+                    "url": "src/images/prop2.jpeg",
+                    "alt": "Railside Apartments Image 2"
+                  },
+                  {
+                    "url": "src/images/prop3.jpeg",
+                    "alt": "Railside Apartments Image 3"
+                  }
+                ],
       "location": "Railside Apartments, Utawala",
       "bedroom": "4",
       "bathroom": "4",
       "sqft": "1800",
-      "price": "100000"
+      "price": "100000",
+      "reviews": {
+        "stars": "4"
+      },
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "owner": {
+        "name": "Sidney Okello",
+        "email": "sidneyokello@gmail.com",
+        "phone number": "0702008666",
+        "reviews": {
+        "stars": "4"
+      }
+      }
     },
     {
       "id": "6",
-      "img": "src/images/prop5.jpeg",
+      "category": "rent",
+      "title": "Railside Apartments, Utawala",
+      "type": "Mansion",
+      "images": [
+                  {
+                    "url": "src/images/prop1.jpeg",
+                    "alt": "Railside Apartments Image 1"
+                  },
+                  {
+                    "url": "src/images/prop2.jpeg",
+                    "alt": "Railside Apartments Image 2"
+                  },
+                  {
+                    "url": "src/images/prop3.jpeg",
+                    "alt": "Railside Apartments Image 3"
+                  }
+                ],
       "location": "Railside Apartments, Utawala",
       "bedroom": "4",
       "bathroom": "4",
       "sqft": "1800",
-      "price": "100000"
+      "price": "100000",
+      "reviews": {
+        "stars": "4"
+      },
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "owner": {
+        "name": "Sidney Okello",
+        "email": "sidneyokello@gmail.com",
+        "phone number": "0702008666",
+        "reviews": {
+        "stars": "4"
+      }
+      }
     },
     {
       "id": "7",
-      "img": "src/images/prop1.jpeg",
+      "category": "rent",
+      "title": "Railside Apartments, Utawala",
+      "type": "Mansion",
+      "images": [
+                  {
+                    "url": "src/images/prop1.jpeg",
+                    "alt": "Railside Apartments Image 1"
+                  },
+                  {
+                    "url": "src/images/prop2.jpeg",
+                    "alt": "Railside Apartments Image 2"
+                  },
+                  {
+                    "url": "src/images/prop3.jpeg",
+                    "alt": "Railside Apartments Image 3"
+                  }
+                ],
       "location": "Railside Apartments, Utawala",
       "bedroom": "4",
       "bathroom": "4",
       "sqft": "1800",
-      "price": "100000"
+      "price": "100000",
+      "reviews": {
+        "stars": "4"
+      },
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "owner": {
+        "name": "Sidney Okello",
+        "email": "sidneyokello@gmail.com",
+        "phone number": "0702008666",
+        "reviews": {
+        "stars": "4"
+      }
+      }
     },
     {
       "id": "8",
-      "img": "src/images/prop6.jpeg",
+      "category": "rent",
+      "title": "Railside Apartments, Utawala",
+      "type": "Mansion",
+      "images": [
+                  {
+                    "url": "src/images/prop1.jpeg",
+                    "alt": "Railside Apartments Image 1"
+                  },
+                  {
+                    "url": "src/images/prop2.jpeg",
+                    "alt": "Railside Apartments Image 2"
+                  },
+                  {
+                    "url": "src/images/prop3.jpeg",
+                    "alt": "Railside Apartments Image 3"
+                  }
+                ],
       "location": "Railside Apartments, Utawala",
       "bedroom": "4",
       "bathroom": "4",
       "sqft": "1800",
-      "price": "100000"
+      "price": "100000",
+      "reviews": {
+        "stars": "4"
+      },
+      "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "owner": {
+        "name": "Sidney Okello",
+        "email": "sidneyokello@gmail.com",
+        "phone number": "0702008666",
+        "reviews": {
+        "stars": "4"
+      }
+      }
     }
   ]
 }

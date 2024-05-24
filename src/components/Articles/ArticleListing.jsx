@@ -8,14 +8,14 @@ const ArticleListing = ({ article }) => {
               <div className="a-details">
                 <span className="a-title">{article.title}</span>
                 <div className="a-extra">
-                  <span>
-                    <FaUserAlt />
+                  <p>
+                    <FaUserAlt className="a-icon" />
                     {article.author}
-                  </span>
-                  <span>
-                    <FaClock />
+                  </p>
+                  <p>
+                    <FaClock className="a-icon" />
                     {article.mins} mins
-                  </span>
+                  </p>
                 </div>
                 <div className="a-desc">
                   <span>{article.desc}</span>

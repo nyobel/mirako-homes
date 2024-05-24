@@ -2,11 +2,13 @@ footer {
     padding: 2rem 6rem 2rem 6rem;
     background-color: var(--dark);
     margin-top: 3rem;
-}
-
-.footer{
     display: flex;
     flex-direction: column;
+}
+
+
+.footer{
+    flex: 1;
 }
 
 .footer-links {

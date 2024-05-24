@@ -1,33 +1,37 @@
-import { FaMapMarkerAlt, FaBed, FaBath } from "react-icons/fa";
-import { GoGraph } from "react-icons/go";
+import { FaMapMarkerAlt, FaBed, FaBath, FaChartLine } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const PropertyListing = ({ property }) => {
+  const mainImage = property.images[0];
+
   return (
-    <div className="flexColStart p-card">
-      <img src={ property.img } alt="property image" />
-      <div className="flexColStart p-details">
-        <span className="p-location">
-          <FaMapMarkerAlt className="icon" />
-          {property.location}
-        </span>
+    <div className="p-card">
+      <img src={mainImage.url} alt={mainImage.alt} />
+      <div className="p-details">
+        <div className="p-location">
+          <p>{property.title}</p>
+        </div>
+        {/* <div className="p-type">
+          <p>{property.type}</p>
+          <p>{property.category}</p>
+        </div> */}
         <div className="p-extra">
-          <span>
-            <FaBed className="icon" />
+          <p>
+            <FaBed className="p-icon" />
             {property.bedroom} Bed
-          </span>
-          <span>
-            <FaBath className="icon" />
+          </p>
+          <p>
+            <FaBath className="p-icon" />
             {property.bathroom} Bath
-          </span>
-          <span>
-            <GoGraph className="icon" />
+          </p>
+          <p>
+            <FaChartLine className="p-icon" />
             {property.sqft}
-          </span>
+          </p>
         </div>
         <div className="p-price">
-          <span>${property.price}</span>
-          <Link to={`/property/${property.id}`}>
+          <p>${property.price}</p>
+          <Link to={`/properties/${property.id}`}>
             <button className="p-btn">View Details</button>
           </Link>
         </div>

@@ -10,7 +10,7 @@ export const articles = [
         "id": 1,
         "image": article1,
         "title": "Article Title",
-        "author": "Author",
+        "author": "Sidney J. Okello",
         "desc": "A brief description of the article would go here",
         "mins": "6"
     },
