@@ -1,5 +1,5 @@
 import React from 'react'
-import errorImg from "../../images/pagenotfound.jpeg"
+import errorImg from "../../../public/images/pagenotfound.jpeg"
 import "./NotFoundPage.css"
 import { Link } from "react-router-dom"
 

@@ -7,15 +7,15 @@
       "type": "Mansion",
       "images": [
                   {
-                    "url": "src/images/prop1.jpeg",
+                    "url": "/images/prop1.jpeg",
                     "alt": "Railside Apartments Image 1"
                   },
                   {
-                    "url": "src/images/prop2.jpeg",
+                    "url": "/images/prop2.jpeg",
                     "alt": "Railside Apartments Image 2"
                   },
                   {
-                    "url": "src/images/prop3.jpeg",
+                    "url": "/images/prop3.jpeg",
                     "alt": "Railside Apartments Image 3"
                   }
                 ],
@@ -41,15 +41,15 @@
       "type": "Mansion",
       "images": [
                   {
-                    "url": "src/images/prop1.jpeg",
+                    "url": "/images/prop1.jpeg",
                     "alt": "Railside Apartments Image 1"
                   },
                   {
-                    "url": "src/images/prop2.jpeg",
+                    "url": "/images/prop2.jpeg",
                     "alt": "Railside Apartments Image 2"
                   },
                   {
-                    "url": "src/images/prop3.jpeg",
+                    "url": "/images/prop3.jpeg",
                     "alt": "Railside Apartments Image 3"
                   }
                 ],
@@ -78,15 +78,15 @@
       "type": "Mansion",
       "images": [
                   {
-                    "url": "src/images/prop1.jpeg",
+                    "url": "/images/prop1.jpeg",
                     "alt": "Railside Apartments Image 1"
                   },
                   {
-                    "url": "src/images/prop2.jpeg",
+                    "url": "/images/prop2.jpeg",
                     "alt": "Railside Apartments Image 2"
                   },
                   {
-                    "url": "src/images/prop3.jpeg",
+                    "url": "/images/prop3.jpeg",
                     "alt": "Railside Apartments Image 3"
                   }
                 ],
@@ -115,15 +115,15 @@
       "type": "Mansion",
       "images": [
                   {
-                    "url": "src/images/prop1.jpeg",
+                    "url": "/images/prop1.jpeg",
                     "alt": "Railside Apartments Image 1"
                   },
                   {
-                    "url": "src/images/prop2.jpeg",
+                    "url": "/images/prop2.jpeg",
                     "alt": "Railside Apartments Image 2"
                   },
                   {
-                    "url": "src/images/prop3.jpeg",
+                    "url": "/images/prop3.jpeg",
                     "alt": "Railside Apartments Image 3"
                   }
                 ],
@@ -152,15 +152,15 @@
       "type": "Mansion",
       "images": [
                   {
-                    "url": "src/images/prop1.jpeg",
+                    "url": "/images/prop1.jpeg",
                     "alt": "Railside Apartments Image 1"
                   },
                   {
-                    "url": "src/images/prop2.jpeg",
+                    "url": "/images/prop2.jpeg",
                     "alt": "Railside Apartments Image 2"
                   },
                   {
-                    "url": "src/images/prop3.jpeg",
+                    "url": "/images/prop3.jpeg",
                     "alt": "Railside Apartments Image 3"
                   }
                 ],
@@ -189,20 +189,20 @@
       "type": "Mansion",
       "images": [
                   {
-                    "url": "src/images/prop1.jpeg",
+                    "url": "/images/prop1.jpeg",
                     "alt": "Railside Apartments Image 1"
                   },
                   {
-                    "url": "src/images/prop2.jpeg",
+                    "url": "/images/prop2.jpeg",
                     "alt": "Railside Apartments Image 2"
                   },
                   {
-                    "url": "src/images/prop3.jpeg",
+                    "url": "/images/prop3.jpeg",
                     "alt": "Railside Apartments Image 3"
                   }
                 ],
       "location": "Railside Apartments, Utawala",
-      "bedroom": "4",
+      "bedroom": "3",
       "bathroom": "4",
       "sqft": "1800",
       "price": "100000",
@@ -226,15 +226,15 @@
       "type": "Mansion",
       "images": [
                   {
-                    "url": "src/images/prop1.jpeg",
+                    "url": "/images/prop1.jpeg",
                     "alt": "Railside Apartments Image 1"
                   },
                   {
-                    "url": "src/images/prop2.jpeg",
+                    "url": "/images/prop2.jpeg",
                     "alt": "Railside Apartments Image 2"
                   },
                   {
-                    "url": "src/images/prop3.jpeg",
+                    "url": "/images/prop3.jpeg",
                     "alt": "Railside Apartments Image 3"
                   }
                 ],
@@ -263,15 +263,15 @@
       "type": "Mansion",
       "images": [
                   {
-                    "url": "src/images/prop1.jpeg",
+                    "url": "/images/prop1.jpeg",
                     "alt": "Railside Apartments Image 1"
                   },
                   {
-                    "url": "src/images/prop2.jpeg",
+                    "url": "/images/prop2.jpeg",
                     "alt": "Railside Apartments Image 2"
                   },
                   {
-                    "url": "src/images/prop3.jpeg",
+                    "url": "/images/prop3.jpeg",
                     "alt": "Railside Apartments Image 3"
                   }
                 ],

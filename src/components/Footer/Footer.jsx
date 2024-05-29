@@ -1,5 +1,5 @@
 import "./Footer.css";
-import logo from "../../images/marikologo1.png";
+import logo from "/images/marikologo1.png";
 import {
   FaFacebook,
   FaTwitter,
@@ -29,17 +29,14 @@ const Footer = () => {
               minima repudiandae atque, tenetur consequuntur corrupti?
             </p>
             <div>
-              <Link to="https://www.pinterest.com">
+              <Link to="https://www.pinterest.com" target="_blank" rel="noopener noreferrer">
                 <FaFacebook className="f-icon icon" />
               </Link>
-              <Link to="https://twitter.com/MirakoHomes">
+              <Link to="https://twitter.com/MirakoHomes" target="_blank" rel="noopener noreferrer">
                 <FaTwitter className="f-icon icon" />
               </Link>
-              <Link to="https://www.instagram.com/mirakohomes">
+              <Link to="https://www.instagram.com/mirakohomes" target="_blank" rel="noopener noreferrer">
                 <FaInstagram className="f-icon icon" />
-              </Link>
-              <Link>
-                <FaYoutube className="f-icon icon" />
               </Link>
             </div>
             </div>

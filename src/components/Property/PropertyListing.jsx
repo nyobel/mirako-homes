@@ -1,4 +1,4 @@
-import { FaMapMarkerAlt, FaBed, FaBath, FaChartLine } from "react-icons/fa";
+import { FaBed, FaBath, FaChartLine } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const PropertyListing = ({ property }) => {

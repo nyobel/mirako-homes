@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../../images/hr-img.jpeg";
+import hero from "/images/hr-img.jpeg";
 import "./Hero.css";
 import SearchBar from "../SearchBar/SearchBar"
 import { Link } from "react-router-dom";

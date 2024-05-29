@@ -1,5 +1,5 @@
 import "./Articles.css";
-import { articles } from "../../utils/ArticlesList";
+import { articles } from "../../articles.json";
 import ArticleListing from "./ArticleListing";
 import { FaArrowRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -10,10 +10,10 @@ const Articles = ({ isHome = false }) => {
   return (
     <section className="a-wrapper">
       <div className="a-container">
-        <div className="a-head">
+        <div className={isHome ? "a-head" : "articles-page-head"}>
           <p>{isHome ? "Get to Know Real Estate" : "Real Estate Articles"}</p>
           <Link to="/articles">
-            <p className="a-head-right">
+            <p className={isHome ? "a-head" : "a-head-right-none"}>
               Explore All
               <FaArrowRight className="a-head-right-icon" />
             </p>

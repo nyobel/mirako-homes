@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import mpesaLogo from "../../images/mpesa.jpeg"; // Make sure to replace with your actual image path
-import cardLogo from "../../images/credit-card.png"; // Make sure to replace with your actual image path
+import mpesaLogo from "../../../public/images/mpesa.jpeg"; // Make sure to replace with your actual image path
+import cardLogo from "../../../public/images/credit-card.png"; // Make sure to replace with your actual image path
 import "./PaymentForm.css"; // Add necessary styling here
 
 const PaymentForm = () => {
@@ -56,7 +56,7 @@ const PaymentForm = () => {
       <h2>Payment Form</h2>
       <form onSubmit={handleSubmit}>
         <div className="payment-method-selection">
-          <h3 className="payment-method">Payment Method</h3>
+          <h3 className="payment-method">Choose a payment method:</h3>
           <div className="payment-options">
             <img
               src={mpesaLogo}

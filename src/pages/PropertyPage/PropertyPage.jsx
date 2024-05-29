@@ -38,7 +38,7 @@ const PropertyPage = () => {
                   </p>
                   <p>
                     <FaBed className="property-page-icon" />
-                    {property.bedroom} Bed
+                    {property.bedroom}Bed
                   </p>
                   <p>
                     <FaBath className="property-page-icon" />
@@ -76,9 +76,9 @@ const PropertyPage = () => {
                 </p>
                 <p>Rating: {property.owner.reviews.stars}</p>
               </div>
-              <Link to={`/properties/${property.id}/booking`}>
+              {/* <Link to={`/properties/${property.id}/booking`}>
                 <button>Book for Viewing</button>
-              </Link>
+              </Link> */}
               <Link to={`/properties/${property.id}/booking`}>
                 <button>Book property</button>
               </Link>

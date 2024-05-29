@@ -8,6 +8,7 @@ import BookingPage from "./pages/BookingPage/BookingPage";
 import ArticlesPage from "./pages/ArticlesPage";
 import NotFoundPage from "./pages/NotFound/NotFoundPage";
 import ContactPage from "./pages/Contacts/ContactPage";
+import ArticlePage, { articleLoader } from "./pages/ArticlePage/ArticlePage";
 
 
 
@@ -20,6 +21,7 @@ const router = createBrowserRouter (
       <Route path="/properties/:id" element={<PropertyPage />} loader={propertyLoader} />
       <Route path="/properties/:id/booking" element={<BookingPage />} />
       <Route path="/articles" element={<ArticlesPage />} />
+      <Route path="/articles/:id" element={<ArticlePage />} loader={articleLoader}/>
       <Route path="/contacts" element={<ContactPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Route>
